@@ -130,7 +130,7 @@ public class LoginJFrame extends javax.swing.JFrame {
         if(uzn.equals("admin") && pxy.equals("123")){
         new StudentView().setVisible(true);
     }else{
-            JOptionPane.showMessageDialog(null, "ane pako gahpn hari password eka");
+            JOptionPane.showMessageDialog(null, "Invalid UserName or Password");
             }
     }//GEN-LAST:event_btnloginActionPerformed
 
