@@ -11,7 +11,7 @@ public class AttendanceView extends JFrame {
     public JTextField txtAid, txtStudentName, txtSection;
     public JComboBox<String> txtStatus;
     public JTable attendanceTable;
-    public JButton btnInsert, btnUpdate, btnDelete, btnDashboard; // Added btnDashboard declaration
+    public JButton btnInsert, btnUpdate, btnDelete, btnDashboard,btnReport; // Added btnDashboard declaration
 
     public AttendanceView() {
         setTitle("Attendance Management");
@@ -33,6 +33,7 @@ public class AttendanceView extends JFrame {
         btnInsert = new JButton("Insert");
         btnUpdate = new JButton("Update");
         btnDelete = new JButton("Delete");
+        btnReport = new JButton("Report");
         btnDashboard = new JButton("Dashboard"); // Initialize btnDashboard
 
         // Layout setup
@@ -50,6 +51,7 @@ public class AttendanceView extends JFrame {
         buttonPanel.add(btnInsert);
         buttonPanel.add(btnUpdate);
         buttonPanel.add(btnDelete);
+        buttonPanel.add(btnReport);
         buttonPanel.add(btnDashboard); // Add btnDashboard to buttonPanel
 
         JScrollPane tableScrollPane = new JScrollPane(attendanceTable);

@@ -9,7 +9,7 @@ import javax.swing.table.DefaultTableModel;
 public class EnrollView extends JFrame {
     public JTextField txteid, txtesn, txtec, txtEnrollDate;
     public JTable tblenroll;
-    public JButton btnInsert, btnUpdate, btnDelete, btnDashboard;
+    public JButton btnInsert, btnUpdate, btnDelete, btnDashboard, btnReport;
 
     public EnrollView() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -83,11 +83,13 @@ public class EnrollView extends JFrame {
         btnInsert = new JButton("Insert");
         btnUpdate = new JButton("Update");
         btnDelete = new JButton("Delete");
+        btnReport = new JButton("Report");
         btnDashboard = new JButton("Dashboard");
 
         buttonPanel.add(btnInsert);
         buttonPanel.add(btnUpdate);
         buttonPanel.add(btnDelete);
+        buttonPanel.add(btnReport);
         buttonPanel.add(btnDashboard);
 
         add(buttonPanel, BorderLayout.SOUTH);

@@ -9,7 +9,7 @@ import javax.swing.table.DefaultTableModel;
 public class CourseView extends JFrame {
     public JTextField txtCourseID, txtCourseName, txtDuration;
     public JTable tblCourses;
-    public JButton btnInsert, btnUpdate, btnDelete, btnDashboard;
+    public JButton btnInsert, btnUpdate, btnDelete, btnDashboard,btnReport;
 
     public CourseView() {
         setTitle("Course Management");
@@ -76,11 +76,13 @@ public class CourseView extends JFrame {
         btnInsert = new JButton("Insert");
         btnUpdate = new JButton("Update");
         btnDelete = new JButton("Delete");
+        btnReport = new JButton("Report");
         btnDashboard = new JButton("Dashboard");
 
         buttonPanel.add(btnInsert);
         buttonPanel.add(btnUpdate);
         buttonPanel.add(btnDelete);
+        buttonPanel.add(btnReport);
         buttonPanel.add(btnDashboard);
 
         add(buttonPanel, BorderLayout.SOUTH);

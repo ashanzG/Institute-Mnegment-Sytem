@@ -10,7 +10,7 @@ import javax.swing.table.DefaultTableModel;
   public class StudentView extends JFrame {
     public JTextField txtsid, txtsn, txtsemail, txtsadress;
     public JTable tblStudent;
-    public JButton btnInsert, btnUpdate, btnDelete,btnDashboard;
+    public JButton btnInsert, btnUpdate, btnDelete,btnDashboard,btnReport;
 
     public StudentView() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -82,11 +82,14 @@ import javax.swing.table.DefaultTableModel;
         btnUpdate = new JButton("Update");
         btnDelete = new JButton("Delete");
         btnDashboard = new JButton ("Dashboard");
+        btnReport = new JButton ("Report");
 
         buttonPanel.add(btnInsert);
         buttonPanel.add(btnUpdate);
         buttonPanel.add(btnDelete);
+        buttonPanel.add(btnReport);
         buttonPanel.add(btnDashboard);
+      
         add(buttonPanel, BorderLayout.SOUTH);
 
         // Finalizing the frame

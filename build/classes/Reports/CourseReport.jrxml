@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f6573510-46ca-42da-9189-c576002d9139">
+	<queryString language="SQL">
+		<![CDATA[select * from course]]>
+	</queryString>
+	<field name="courseID" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="courseName" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="duration" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="198" y="13" width="188" height="44" uuid="e1f4afd1-d35e-4e8e-a126-4f4d40d0ad53"/>
+				<textElement>
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Course Report]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="11" y="19" width="100" height="20" uuid="0580b5fc-02e5-4913-84bd-75236a665b65"/>
+				<text><![CDATA[Couse ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="19" width="100" height="20" uuid="76bed6b2-0f16-48a6-97c7-b3060d4544ae"/>
+				<text><![CDATA[Course Nmae]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="422" y="19" width="100" height="20" uuid="01363bad-d49b-4687-aab4-67e5087b63c2"/>
+				<text><![CDATA[Duration]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="11" y="25" width="100" height="20" uuid="c45360c3-8a41-47db-8157-94b94607443c"/>
+				<textFieldExpression><![CDATA[$F{courseID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="25" width="100" height="20" uuid="2ede7bf4-2a06-484c-a0b1-979362ba0572"/>
+				<textFieldExpression><![CDATA[$F{courseName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="422" y="25" width="100" height="20" uuid="af1cde25-2915-4d97-aead-d6f20cbdb595"/>
+				<textFieldExpression><![CDATA[$F{duration}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
