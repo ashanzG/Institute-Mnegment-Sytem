@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/inst/JavaApplication3/src/Model/Attendance.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/dash/LoginJFrame.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/Controll/AttendanceController.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/Model/FeeModel.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/Controll/EnrollController.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/View/StudentView.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/View/CourseView.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/Model/StudentModel.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/View/AttendanceView.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/View/FeeView.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/Model/Course.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/Controll/StudentController.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/Controll/CourseController.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/dash/MainJFrame.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/View/EnrollView.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/Model/EnrollModel.java</file>
+            <file>file:/D:/inst/JavaApplication3/src/Controll/FeeController.java</file>
+        </group>
+    </open-files>
+</project-private>
